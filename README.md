@@ -8,6 +8,7 @@
 ### colone repo then :
 
 ```
+ cd Modern-poetry-site
  npm install
 ```
 
