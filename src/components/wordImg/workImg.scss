@@ -1,0 +1,30 @@
+.wordImg{
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    
+}
+.word--title{
+    font-size: 25px;
+    font-weight: 500;
+    width: fit-content;
+    margin: 0;
+
+
+}
+Link{
+    text-decoration: none;
+    color: white;
+}
+.word--wrap{
+    width: 200px;
+    height: 75px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}

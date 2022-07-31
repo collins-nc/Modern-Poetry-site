@@ -1,0 +1,210 @@
+@import url('satoshi.css');
+
+body{
+    font-family: 'Satoshi-Variable';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background: #202020;
+    overflow: hidden;
+
+}
+
+.home{
+
+    height: 508vh;
+}
+
+.section-1{
+    position: relative;
+    height: 100vh;
+    .top-title{
+        font-size: 20px;
+        margin-left: 25px;
+        margin-top: 50px;
+        cursor: pointer;
+
+        
+    }
+    .title{
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 45px;
+        position: absolute;
+        z-index: 2;
+        mix-blend-mode: difference;
+
+        .title--words{
+            font-size: 80px;
+            line-height: 5px;
+            cursor: pointer;
+        }
+        .author{
+            margin-top: 100px;
+            font-size: 20px;
+            cursor: pointer;
+
+            .author--name{
+                font-size: 25px;
+            }
+        }
+    }
+    img{
+        object-fit: cover;
+        width: 500px;
+        z-index: 1;
+        position: absolute;
+        right: 150px;
+    }
+    
+}
+.section-2{
+    position: relative;
+    height: 100vh;
+    img{
+        &:first-of-type{
+            object-fit: cover;
+            width: 500px;
+            height: 100vh;
+            z-index: 1;
+            position: absolute;
+        }
+        &:last-of-type{
+            mix-blend-mode: luminosity;
+            object-fit: cover;
+            width: 250px;
+            height: 250px;
+            z-index: 2;
+            position: absolute;
+            left: 29%;
+            top: 25%;
+        }
+    }
+    .writing-1{
+        position: absolute;
+        right: 50px;
+        top: 25px;
+        text-transform: capitalize;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 15px;
+        cursor: pointer;
+        p{
+            &:first-of-type{
+                font-size: 50px;
+                -webkit-text-stroke: 2px white;
+                color: transparent;
+                margin-right: 45px;
+
+            }
+        }
+        .writing-1-point{
+            color:  #c1a282bd;
+            -webkit-text-stroke: 0px #c1a282bd;
+
+
+        }
+    }
+
+}
+.section-3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .sec-img{
+        object-fit: cover;
+        top: 30%;
+        height: 400px;
+        z-index: 2;
+        position: absolute;
+
+        
+    }
+    .writing-2{
+        width: 100%;
+        font-size: 50px;
+        line-height: 5px;
+        text-align: center;
+        position: absolute;
+        color: white;
+        text-transform: capitalize;
+        &:first-of-type{
+            z-index: 1;
+        }
+        &:last-of-type{
+            z-index: 3;
+            color: transparent;
+            -webkit-text-stroke: 3px white;
+        }
+    }
+
+}
+.section-4{
+    height: 100vh;
+    position: relative;
+    background: #e8caa9;
+    
+    .writing-3{
+        color: white;
+        text-transform: capitalize;
+        position: absolute;
+        right: 5%;
+        top: 35%;
+        font-size: 28px;
+        font-weight: 1000;
+        line-height: 7px;
+        z-index: 2;
+        cursor: pointer;
+
+
+    }
+    .sec-4-img{
+        top: 0;
+        right: 0;
+        object-fit: cover;
+        height: 100vh;
+        position: absolute;
+        z-index: 1;
+    }
+    .sec-4-img2{
+        bottom: 20px;
+        left: 175px;
+        position: absolute;
+        object-fit: cover;
+        width: 100px;
+
+    }
+    .sec-4-img3{
+        top: 150px;
+        left: 300px;
+        position: absolute;
+        object-fit: cover;
+        width: 100px;
+
+    }
+
+        
+}
+.section-5{
+    position: relative;
+    height: 100vh;
+    background: #e8caa9;
+    display: flex;
+    cursor: pointer;
+    .writing-4{
+        display: flex;
+        margin-top: 5%;
+        margin-left: 3%;
+        font-size: 20px;
+        line-height: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        .R-section{
+            margin-left: 2%;
+            color: #564b3c;
+        }
+    }
+}
