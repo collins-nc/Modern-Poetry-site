@@ -3,7 +3,7 @@ import "../styles/index.scss"
 import LocomotiveScroll from "locomotive-scroll"
 import WordImg from "../components/wordImg/WordImg";
 import Cursor from "../components/CustmoCursor/Cursor";
-import SightImg from "../components/SightImg/SightImg";
+import SightImg from "../components/sightImg/SightImg";
 
 export default function Home() {
 
